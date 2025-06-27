@@ -4,24 +4,22 @@ import requests
 import json
 import pyttsx3
 import logging
+import dotenv
+import os
 
-api_key = json.load(open('.env'))['OPENROUTER_API_KEY']
+# Carrega as variáveis de ambiente do arquivo .env
+dotenv.load_dotenv('/.env')
+api_key = os.getenv("OPENROUTER_API_KEY")
 
 # Configuração do logging
 logging.basicConfig(filename='assistant.log', level=logging.INFO)
 
 def listen():
-    recognizer = sr.Recognizer()
-    with sr.Microphone() as source:
-        print("Ouvindo...")
-        audio = recognizer.listen(source)
-    try:
-        text = recognizer.recognize_google(audio, language='pt-BR')
-        print(f"Você disse: {text}")
-        return text
-    except Exception as e:
-        logging.error(f"Erro no STT: {e}")
-        return None
+    r = sr.Recognizer()
+    with sr.Microphone(device_index=0) as source:  # Replace `2` with your virtual mic's ID
+        print("Speak now...")
+        audio = r.listen(source)
+    return r.recognize_google(audio, language="pt-BR")
 
 def call_open_router(text, api_key):
     url = "https://openrouter.ai/api/v1/chat/completions"
