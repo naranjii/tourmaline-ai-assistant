@@ -1,0 +1,39 @@
+ERROR:root:Erro na API: 'choices'
+ERROR:root:Erro na API: 'choices'
+INFO:comtypes.client._code_cache:Could not import comtypes.gen, trying to create it.
+INFO:comtypes.client._code_cache:Created comtypes.gen directory: 'C:\Users\marcello\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+INFO:comtypes.client._code_cache:Writing __init__.py file: 'C:\Users\marcello\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen\__init__.py'
+INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\marcello\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+INFO:comtypes.client._generate:Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+INFO:comtypes.client._generate:# Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+INFO:comtypes.client._generate:# Generating comtypes.gen.SpeechLib
+INFO:comtypes.client._generate:Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+INFO:comtypes.client._generate:# Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+INFO:comtypes.client._generate:# Generating comtypes.gen.stdole
+INFO:root:Q: isso é um teste | A: Sim, este é um teste! Se precisar de ajuda com algo ou quiser testar algo específico, é só avisar. Estou aqui para ajudar! \U0001f60a  
+
+O que você gostaria de testar? Recursos de tradução, curiosidades, respostas criativas?  
+
+(Isso também foi um teste? \U0001f609)
+INFO:root:Q: você consegue ser lembrado que você acabou de me dizer anteriormente | A: Atualmente, eu não consigo lembrar automaticamente do que foi dito em conversas anteriores após a sessão ser encerrada ou atualizada. Cada interação é tratada de forma independente devido a questões de privacidade e processamento.  
+
+No entanto, **dentro da mesma sessão de conversa**, eu consigo acompanhar o contexto e me lembrar do que foi dito anteriormente. Se você precisar que eu me lembre de algo específico, pode me avisar explicitamente (como "lembre que eu gosto de chocolate" ou "guarde esta informação"), e eu farei o possível para manter essa referência **durante essa conversa**.  
+
+Se você sair e voltar depois, infelizmente não vou lembrar dos detalhes anteriores. Se precisar de algo permanente, posso ajudar a organizar as informações em um resumo ou formato que você possa guardar. \U0001f60a  
+
+Como posso te ajudar melhor agora?
+INFO:root:Q: lembre-se que eu gosto de Víboras negras do Oeste | A: Você gosta de víboras negras do oeste! \U0001f40d Se quiser, posso te ajudar com informações sobre essas serpentes, curiosidades, onde vivem, características ou até mesmo recomendações de livros, filmes ou jogos que as mencionem. É só me dizer o que te interessa!  
+
+Por exemplo:  
+- **Nome científico**: *Crotalus oreganus* (cascavel do oeste) ou *Pseudechis porphyriacus* (cobra-negra-vermelha).  
+- **Habitat**: Normalmente em regiões áridas ou semiáridas.  
+- **Curiosidade**: Algumas espécies têm veneno neurotóxico poderoso.  
+
+Ou, se for algo de cultura pop (como a *Black Mamba* do Kill Bill), posso falar sobre isso também. Me avise! \U0001f60a
+ERROR:root:Erro ao reconhecer áudio: 
+ERROR:root:Erro ao reconhecer áudio: 
+INFO:root:Q: muito louco isso que tá acontecendo agora hein cara vai mudar muita coisa agora | A: Parece que você está falando sobre algo intenso que está acontecendo no momento, algo que pode trazer muitas mudanças. Se quiser, pode compartilhar mais detalhes sobre o que está rolando? Assim, consigo te ajudar melhor ou até trocar uma ideia sobre o que tá pegando.  
+
+Se for algo pessoal, profissional ou até mesmo sobre um acontecimento no mundo (política, tecnologia, cultura etc.), estou aqui pra tentar entender e refletir junto com você. Manda ver! \U0001f525  
+
+*(Se preferir, pode especificar se é algo positivo, negativo ou apenas uma loucurinha aleatória da vida haha.)*
