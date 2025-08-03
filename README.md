@@ -57,13 +57,13 @@ You must provide your **OpenRouter API key**. You can either:
 export OPENROUTER_API_KEY="your_key_here"
 ```
 
-- Or use a `.env` file (if supported in the code):
+- Create a file named `.env` at cloned directory with content :
 
 ```
 OPENROUTER_API_KEY=your_key_here
 ```
 
-You can customize:
+You can customize in config.json:
 - The **hotkey** for voice activation
 - The **OpenRouter model ID** (e.g. `openai/gpt-4`, `mistralai/mistral-7b`)
 - TTS voice and speech rate (via `pyttsx3` config in code)
